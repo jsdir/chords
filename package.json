@@ -1,0 +1,30 @@
+{
+  "name": "chords",
+  "version": "1.0.0",
+  "description": "a MIDI chord scanner in the browser",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^3.8.0",
+    "teoria": "^1.9.0",
+    "vexflow": "^1.2.18",
+    "webpack": "^1.9.7",
+    "zazate.js": "git://github.com/jsdir/zazate.js.git#efad14c3beb2f7e5b96100e97c4ce967aaf66932"
+  },
+  "devDependencies": {
+    "babel-loader": "^5.1.2",
+    "webpack-dev-server": "^1.8.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsdir/chords.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsdir/chords/issues"
+  },
+  "homepage": "https://github.com/jsdir/chords"
+}
